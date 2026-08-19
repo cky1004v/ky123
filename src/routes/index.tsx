@@ -66,7 +66,7 @@ function ApplyPage() {
           <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-accent-foreground">
             <Heart className="h-6 w-6" />
           </div>
-          <h1 className="text-2xl font-bold sm:text-3xl">{BRAND.orgName} 후원·회원 신청</h1>
+          <h1 className="text-2xl font-bold sm:text-3xl">일자리 회원 신청</h1>
           <p className="mt-2 text-sm text-muted-foreground sm:text-base">{BRAND.tagline}</p>
         </header>
 
@@ -113,7 +113,7 @@ function ApplyPage() {
             </div>
 
             <div>
-              <Label className="mb-2 block">후원 등급 선택</Label>
+              <Label className="mb-2 block">지원 유형 선택</Label>
               <div role="radiogroup" className="grid gap-3">
                 {TIERS.map((t) => {
                   const active = tier === t.id;
